@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import MainContent from '@/components/MainContent'
 import Navbar from '@/components/Navbar'
 import Head from 'next/head'
@@ -11,6 +12,7 @@ export default function Home() {
     <div >
       <Navbar />
       <MainContent />
+      <Footer />
     </div>
   )
 }
