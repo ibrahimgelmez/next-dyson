@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function Footer() {
   return (
     <div className=''>
-      <div className='flex flex-row  items-center justify-between h-36 text-3xl  bg-[#333] text-white '>
+      <div className='flex flex-row  items-center justify-between h-44 text-3xl  bg-[#333] text-white '>
         <p className='ml-20'>Bize ulaşmak çok kolay.</p>
 
         <div className='flex flex-row items-center pl-[130px]  '>
@@ -31,7 +31,7 @@ export default function Footer() {
         
       </div>
 
-      <div className='text-white h-[360px] bg-black'>
+      <div className='text-white h-[400px] bg-black'>
 
           <div className='flex flex-row justify-between  mx-48  '>
 
@@ -44,7 +44,7 @@ export default function Footer() {
               <p>Kariyer</p>
             </div>
 
-            <div className='border-b-2 w-1/4 text-gray-500 border-gray-600 mt-12 pb-4 leading-7'>
+            <div className='border-b-2 w-1/4 text-gray-500 border-gray-600 mt-12 pb-16 leading-8'>
               <p>Güvenlik ve Gizlilik</p>
               <p>Kullanım Koşulları</p>
               <p>İşlem Rehberi</p>
