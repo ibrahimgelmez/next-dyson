@@ -4,36 +4,36 @@ import Image from "next/image"
 export default function Footer() {
   return (
     <div className=''>
-      <div className='flex flex-row  items-center justify-between h-44 text-3xl  bg-[#333] text-white '>
-        <p className='ml-20'>Bize ulaşmak çok kolay.</p>
+      <div className='flex flex-row  items-center justify-between h-44 text-xl lg:text-3xl  bg-[#333] text-white '>
+        <p className='text-sm ml-2 text-center lg:ml-20'>Bize ulaşmak çok kolay.</p>
 
-        <div className='flex flex-row items-center pl-[130px]  '>
+        <div className='flex flex-row items-center xl:pl-[130px]  '>
           <Image
           className='mr-2'
           src="./phone-icon.svg"
           width={50}
           height={50}
           />
-          <div className='ml-2'>
-            <p className='text-lg'>Bizi arayabilirsiniz.</p>
-            <p className='text-lg'>0850 *** ** **</p>
+          <div className='ml-1 text-sm mr-3'>
+            <p className=' lg:text-lg'>Bizi arayabilirsiniz.</p>
+            <p className=' lg:text-lg'>0850 *** ** **</p>
           </div>
         </div>
 
-        <div className='flex flex-row items-center pr-[150px] mr-24'>
+        <div className='flex flex-row items-center lg:pr-[150px] lg:mr-24'>
           <Image 
           src="./email-icon.svg"
           width={50}
           height={50}
           />
-          <p className='text-lg ml-2'>Mail atın.</p>
+          <p className='text-sm lg:text-lg ml-2'>Mail atın.</p>
         </div>
         
       </div>
 
-      <div className='text-white h-[400px] bg-black'>
+      <div className='text-white h-[100%] bg-black'>
 
-          <div className='flex flex-row justify-between  mx-48  '>
+          <div className='flex flex-row justify-between mx-4 lg:mx-48  '>
 
             <div className='border-b-2 w-2/4 border-gray-600 mt-12 mr-2  '>
               <p>Türkiye</p>
@@ -52,7 +52,7 @@ export default function Footer() {
               <p>James Dyson Vakfı</p>
             </div>
           </div>
-          <div className='text-center text-sm mt-16'>
+          <div className='text-center text-sm mt-16 pb-4'>
             © Dyson(Ibrahim Gelmez Clone) 2023
           </div>
       </div>

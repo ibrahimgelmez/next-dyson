@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 export default function MainContent() {
   return (
-    <div className='flex flex-col justify-center '>
-      <div className='relative flex justify-center'>
+    <div className='flex flex-col justify-center  '>
+      <div className='relative flex justify-center '>
         <Image
         className=''
         src="/bg-1.png"
