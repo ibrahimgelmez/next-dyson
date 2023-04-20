@@ -1,9 +1,10 @@
 import React from 'react'
 import Image from "next/image"
+import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <div className='flex justify-evenly px-[86px] items-center text-xs text-[13px] bg-black text-white'>
+    <div className='flex justify-evenly  items-center text-xs text-[13px] bg-black text-white'>
       <Image 
       className=' min-[400px]:hidden'
       src="./hamburger-menu.svg"
@@ -12,15 +13,17 @@ export default function Navbar() {
       
       />
 
+      <Link href="/"> 
       <Image
-      className='p-2 mb-1 ' 
+      className='p-2 mb-1 min-w-[75px] min-h-[30px] ' 
       src="/logo.png"
       width={110}
       height={50}
-      />
-      <div className='hidden sm:flex sm:justify-between space-x-12 text-[13px]'>
+      /> 
+      </Link>
+      <div className='hidden md:flex sm:justify-between md:space-x-6 lg:space-x-12 text-[13px]'>
         <p className=''>Alışveriş</p>
-        <p>Ürünler</p>
+        <Link href="/products"><p>Ürünler</p></Link>
         <p>Profesyonel İşletmeler</p>
         <p>Dyson Demo Store</p>
         <p>Destek</p>
