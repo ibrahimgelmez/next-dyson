@@ -49,6 +49,7 @@ export async function getStaticProps( { params } ){
 
 export default function ProductDetails({ product }) {
   const [images , setImages] = useState([])
+  console.log("builded succesfully")
 
   const {description , title , rating} = product.fields
 
